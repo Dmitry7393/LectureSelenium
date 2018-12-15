@@ -1,0 +1,1 @@
+cmd_Default/libtest_widgets.a := ln -f "Default/obj.target/libtest_widgets.a" "Default/libtest_widgets.a" 2>/dev/null || (rm -rf "Default/libtest_widgets.a" && cp -af "Default/obj.target/libtest_widgets.a" "Default/libtest_widgets.a")

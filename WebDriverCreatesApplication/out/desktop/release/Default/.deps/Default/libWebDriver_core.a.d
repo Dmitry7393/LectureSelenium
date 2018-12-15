@@ -1,0 +1,1 @@
+cmd_Default/libWebDriver_core.a := ln -f "Default/obj.target/libWebDriver_core.a" "Default/libWebDriver_core.a" 2>/dev/null || (rm -rf "Default/libWebDriver_core.a" && cp -af "Default/obj.target/libWebDriver_core.a" "Default/libWebDriver_core.a")

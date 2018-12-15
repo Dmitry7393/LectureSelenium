@@ -1,0 +1,1 @@
+cmd_Default/libchromium_base.a := ln -f "Default/obj.target/libchromium_base.a" "Default/libchromium_base.a" 2>/dev/null || (rm -rf "Default/libchromium_base.a" && cp -af "Default/obj.target/libchromium_base.a" "Default/libchromium_base.a")

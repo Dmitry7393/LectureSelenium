@@ -1,0 +1,1 @@
+cmd_Default/obj.target/libWebDriver_core.so := g++ -shared   -Wl,-soname=libWebDriver_core.so -o Default/obj.target/libWebDriver_core.so -Wl,--whole-archive ./Default/obj.target/libWebDriver_core.a -Wl,--no-whole-archive 

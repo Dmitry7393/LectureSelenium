@@ -1,0 +1,1 @@
+cmd_Default/libWebDriver_extension_qt_base.a := ln -f "Default/obj.target/libWebDriver_extension_qt_base.a" "Default/libWebDriver_extension_qt_base.a" 2>/dev/null || (rm -rf "Default/libWebDriver_extension_qt_base.a" && cp -af "Default/obj.target/libWebDriver_extension_qt_base.a" "Default/libWebDriver_extension_qt_base.a")

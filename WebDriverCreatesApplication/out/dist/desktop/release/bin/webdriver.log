@@ -1,0 +1,332 @@
+[13189370335,886][SEVERE]: Root './web' does not exist!
+[13189370335,887][INFO]: *** Webdriver ****
+Version:    WebDriver-cisco-cmt-1.3.2
+Build Time: Dec 15 2018 19:38:01
+[13189370335,900][INFO]: Server::Start()
+[13189370335,900][FINE]: >>>>>>>>>>>>> Server::Start routes: >>>>>>>>>>>
+[13189370335,900][FINE]: /status
+[13189370335,900][FINE]: /log
+[13189370335,900][FINE]: /session
+[13189370335,900][FINE]: /session/*
+[13189370335,900][FINE]: /sessions
+[13189370335,900][FINE]: /session/*/timeouts
+[13189370335,900][FINE]: /session/*/timeouts/async_script
+[13189370335,900][FINE]: /session/*/timeouts/implicit_wait
+[13189370335,900][FINE]: /session/*/log/types
+[13189370335,900][FINE]: /session/*/log
+[13189370335,900][FINE]: /session/*/window/*/size
+[13189370335,900][FINE]: /session/*/window/*/position
+[13189370335,900][FINE]: /session/*/window/*/maximize
+[13189370335,900][FINE]: /session/*/title
+[13189370335,900][FINE]: /session/*/forward
+[13189370335,900][FINE]: /session/*/back
+[13189370335,900][FINE]: /session/*/refresh
+[13189370335,900][FINE]: /session/*/screenshot
+[13189370335,900][FINE]: /session/*/element/*/screenshot
+[13189370335,900][FINE]: /session/*/keys
+[13189370335,900][FINE]: /session/*/element/*/click
+[13189370335,900][FINE]: /session/*/element/*/hover
+[13189370335,900][FINE]: /session/*/click
+[13189370335,900][FINE]: /session/*/doubleclick
+[13189370335,901][FINE]: /session/*/buttondown
+[13189370335,901][FINE]: /session/*/buttonup
+[13189370335,901][FINE]: /session/*/moveto
+[13189370335,901][FINE]: /session/*/wheel
+[13189370335,901][FINE]: /session/*/element/*/clear
+[13189370335,901][FINE]: /session/*/element/*/value
+[13189370335,901][FINE]: /session/*/element/*/submit
+[13189370335,901][FINE]: /session/*/element/*/text
+[13189370335,901][FINE]: /session/*/element/*/name
+[13189370335,901][FINE]: /session/*/element/*/selected
+[13189370335,901][FINE]: /session/*/element/*/enabled
+[13189370335,901][FINE]: /session/*/element/*/displayed
+[13189370335,901][FINE]: /session/*/element/*/location
+[13189370335,901][FINE]: /session/*/element/*/location_in_view
+[13189370335,901][FINE]: /session/*/element/*/size
+[13189370335,901][FINE]: /session/*/element/*/attribute/*
+[13189370335,901][FINE]: /session/*/element/*/css/*
+[13189370335,901][FINE]: /session/*/element/*/equals/*
+[13189370335,901][FINE]: /session/*/element
+[13189370335,901][FINE]: /session/*/elements
+[13189370335,901][FINE]: /session/*/element/*/element
+[13189370335,901][FINE]: /session/*/element/*/elements
+[13189370335,901][FINE]: /session/*/frame
+[13189370335,901][FINE]: /session/*/element/active
+[13189370335,901][FINE]: /session/*/window_handle
+[13189370335,901][FINE]: /session/*/window_handles
+[13189370335,901][FINE]: /session/*/window
+[13189370335,901][FINE]: /session/*/source
+[13189370335,901][FINE]: /session/*/url
+[13189370335,901][FINE]: /session/*/execute
+[13189370335,901][FINE]: /session/*/execute_async
+[13189370335,901][FINE]: /session/*/application_cache/status
+[13189370335,901][FINE]: /session/*/browser_connection
+[13189370335,901][FINE]: /session/*/alert_text
+[13189370335,901][FINE]: /session/*/accept_alert
+[13189370335,901][FINE]: /session/*/dismiss_alert
+[13189370335,902][FINE]: /session/*/cookie
+[13189370335,902][FINE]: /session/*/cookie/*
+[13189370335,902][FINE]: /session/*/local_storage
+[13189370335,902][FINE]: /session/*/local_storage/key/*
+[13189370335,902][FINE]: /session/*/local_storage/size
+[13189370335,902][FINE]: /session/*/session_storage
+[13189370335,902][FINE]: /session/*/session_storage/key/*
+[13189370335,902][FINE]: /session/*/session_storage/size
+[13189370335,902][FINE]: /session/*/location
+[13189370335,902][FINE]: /session/*/touch/click
+[13189370335,902][FINE]: /session/*/touch/down
+[13189370335,902][FINE]: /session/*/touch/up
+[13189370335,902][FINE]: /session/*/touch/move
+[13189370335,902][FINE]: /session/*/touch/scroll
+[13189370335,902][FINE]: /session/*/touch/doubleclick
+[13189370335,902][FINE]: /session/*/touch/longclick
+[13189370335,902][FINE]: /session/*/touch/flick
+[13189370335,902][FINE]: /session/*/orientation
+[13189370335,902][FINE]: /xdrpc
+[13189370335,902][FINE]: /session/*/element/*/-cisco-player-element/state
+[13189370335,902][FINE]: /session/*/element/*/-cisco-player-element/volume
+[13189370335,902][FINE]: /session/*/element/*/-cisco-player-element/seek
+[13189370335,902][FINE]: /session/*/element/*/-cisco-player-element/mute
+[13189370335,902][FINE]: /session/*/element/*/-cisco-player-element/speed
+[13189370335,902][FINE]: /session/*/-cisco-visualizer-source
+[13189370335,902][FINE]: /session/*/-cisco-visualizer-show-point
+[13189370335,902][FINE]: /session/*/touch/-cisco-pinch-zoom
+[13189370335,902][FINE]: /session/*/touch/-cisco-pinch-rotate
+[13189370335,902][FINE]: /-cisco-shutdown
+[13189370335,902][FINE]: /shutdown
+[13189370335,902][FINE]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[13189370338,496][FINE]: >>>>> ProcessHttpRequest - got new request: POST  /session
+[13189370338,496][FINE]: Initializing session with desired capabilities {
+   "acceptInsecureCerts": true,
+   "browserName": "firefox",
+   "marionette": true
+}
+
+[13189370338,496][FINE]: Capability: acceptInsecureCerts skipped by parser.
+[13189370338,496][FINE]: Capability: browserName skipped by parser.
+[13189370338,496][FINE]: Capability: marionette skipped by parser.
+[13189370338,496][INFO]: Custom QT PostInit action.
+[13189370338,496][INFO]: no proxy settings requsted.
+[13189370338,496][INFO]: Applying system proxy by default.
+[13189370338,496][INFO]: system proxy configuration not found
+[13189370338,497][FINE]: Trying to create window - 
+[13189370338,497][INFO]: ViewFactory::CreateViewByClassName - 
+[13189370339,006][INFO]: QQmlViewCreator created view (QDeclarativeView).
+[13189370339,006][INFO]: Session(814f9c900cdb332e329086ca7230a336) view: 39d722f61fb2082c72504b87b8d09e78
+[13189370339,006][FINE]: QML executor for view(39d722f61fb2082c72504b87b8d09e78)
+[13189370339,006][FINE]: start view (39d722f61fb2082c72504b87b8d09e78)
+[13189370339,006][INFO]: SwitchTo - set current view (39d722f61fb2082c72504b87b8d09e78)
+[13189370339,006][FINE]: QML executor for view(39d722f61fb2082c72504b87b8d09e78)
+[13189370339,007][FINE]: <<<<< ProcessHttpRequest - processing finished: /session
+[13189370339,009][FINE]: >>>>> ProcessHttpRequest - got new request: GET  /session/814f9c900cdb332e329086ca7230a336
+[13189370339,009][FINE]: Command received (/session/814f9c900cdb332e329086ca7230a336)
+[13189370339,009][INFO]: >>>>> QmlView enumerate
+[13189370339,009][INFO]: >>>>> WidgetView enumerate
+[13189370339,009][FINE]: EnumerateViews found 1 views.
+[13189370339,009][FINE]: Command finished (/session/814f9c900cdb332e329086ca7230a336) with response {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": true,
+      "browserConnectionEnabled": true,
+      "browserName": "QtWebkit",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "hybrid": {
+         "qml": true,
+         "qtVersion": "4.8.7",
+         "widget": true
+      },
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "Linux",
+      "remotePlayerEnabled": true,
+      "reuseUI": false,
+      "rotatable": false,
+      "takesElementScreenshot": true,
+      "takesScreenshot": true,
+      "webStorageEnabled": true
+   }
+}
+
+[13189370339,010][FINE]: <<<<< ProcessHttpRequest - processing finished: /session/814f9c900cdb332e329086ca7230a336
+[13189370339,017][FINE]: >>>>> ProcessHttpRequest - got new request: POST  /session/814f9c900cdb332e329086ca7230a336/url
+[13189370339,017][FINE]: Command received (/session/814f9c900cdb332e329086ca7230a336/url) with params {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "url": "qtwidget://MainWindow"
+}
+
+[13189370339,017][INFO]: >>>>> QmlView enumerate
+[13189370339,017][INFO]: >>>>> WidgetView enumerate
+[13189370339,017][FINE]: EnumerateViews found 1 views.
+[13189370339,018][FINE]: QML executor for view(39d722f61fb2082c72504b87b8d09e78)
+[13189370339,018][INFO]: Current view cant handle url, try to create another - qtwidget://MainWindow
+[13189370339,051][INFO]: QWidgetViewCreator created view(MainWindow) by class name - MainWindow
+[13189370339,052][FINE]: QML executor for view(39d722f61fb2082c72504b87b8d09e78)
+[13189370339,056][INFO]: close View(39d722f61fb2082c72504b87b8d09e78)
+[13189370339,056][INFO]: New view(a60262edf8d30747a07d412da6a1296b) created for url - qtwidget://MainWindow
+[13189370339,056][FINE]: Widget executor for view(a60262edf8d30747a07d412da6a1296b)
+[13189370339,057][INFO]: SwitchTo - set current view (a60262edf8d30747a07d412da6a1296b)
+[13189370339,058][FINE]: Widget executor for view(a60262edf8d30747a07d412da6a1296b)
+[13189370339,059][FINE]: Navigate to widget - qtwidget://MainWindow
+[13189370339,068][INFO]: QWidgetViewCreator created view(MainWindow) by class name - MainWindow
+[13189370339,070][FINE]: Command finished (/session/814f9c900cdb332e329086ca7230a336/url) with response {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13189370339,070][FINE]: <<<<< ProcessHttpRequest - processing finished: /session/814f9c900cdb332e329086ca7230a336/url
+[13189370342,075][FINE]: >>>>> ProcessHttpRequest - got new request: POST  /session/814f9c900cdb332e329086ca7230a336/elements
+[13189370342,076][FINE]: Command received (/session/814f9c900cdb332e329086ca7230a336/elements) with params {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "using": "class name",
+   "value": "QLineEdit"
+}
+
+[13189370342,076][INFO]: >>>>> QmlView enumerate
+[13189370342,076][INFO]: >>>>> WidgetView enumerate
+[13189370342,076][FINE]: EnumerateViews found 1 views.
+[13189370342,077][FINE]: Widget executor for view(a60262edf8d30747a07d412da6a1296b)
+[13189370342,077][FINE]: FindNativeElements, loc:className query:QLineEdit
+[13189370342,077][INFO]: no root element specified, search from root.
+[13189370342,078][FINE]: element found: 2b46f928a5e4f3ddd8704911ddffbcbb
+[13189370342,078][FINE]: Command finished (/session/814f9c900cdb332e329086ca7230a336/elements) with response {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": "2b46f928a5e4f3ddd8704911ddffbcbb"
+   } ]
+}
+
+[13189370342,078][FINE]: <<<<< ProcessHttpRequest - processing finished: /session/814f9c900cdb332e329086ca7230a336/elements
+[13189370342,080][FINE]: >>>>> ProcessHttpRequest - got new request: GET  /session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/displayed
+[13189370342,081][FINE]: Command received (/session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/displayed)
+[13189370342,081][INFO]: >>>>> QmlView enumerate
+[13189370342,081][INFO]: >>>>> WidgetView enumerate
+[13189370342,081][FINE]: EnumerateViews found 1 views.
+[13189370342,081][FINE]: Widget executor for view(a60262edf8d30747a07d412da6a1296b)
+[13189370342,082][FINE]: Command finished (/session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/displayed) with response {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "status": 0,
+   "value": true
+}
+
+[13189370342,082][FINE]: <<<<< ProcessHttpRequest - processing finished: /session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/displayed
+[13189370342,084][FINE]: >>>>> ProcessHttpRequest - got new request: GET  /session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/text
+[13189370342,084][FINE]: Command received (/session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/text)
+[13189370342,085][INFO]: >>>>> QmlView enumerate
+[13189370342,085][INFO]: >>>>> WidgetView enumerate
+[13189370342,085][FINE]: EnumerateViews found 1 views.
+[13189370342,085][FINE]: Widget executor for view(a60262edf8d30747a07d412da6a1296b)
+[13189370342,087][FINE]: Command finished (/session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/text) with response {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "status": 0,
+   "value": ""
+}
+
+[13189370342,087][FINE]: <<<<< ProcessHttpRequest - processing finished: /session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/text
+[13189370342,090][FINE]: >>>>> ProcessHttpRequest - got new request: POST  /session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/value
+[13189370342,090][FINE]: Command received (/session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/value) with params {
+   "id": "2b46f928a5e4f3ddd8704911ddffbcbb",
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "text": "some text",
+   "value": [ "s", "o", "m", "e", " ", "t", "e", "x", "t" ]
+}
+
+[13189370342,090][INFO]: >>>>> QmlView enumerate
+[13189370342,090][INFO]: >>>>> WidgetView enumerate
+[13189370342,090][FINE]: EnumerateViews found 1 views.
+[13189370342,090][FINE]: Widget executor for view(a60262edf8d30747a07d412da6a1296b)
+[13189370342,091][WARNING]: No translation for key code. Code point: 115
+[13189370342,091][WARNING]: No translation for key code. Code point: 111
+[13189370342,091][WARNING]: No translation for key code. Code point: 109
+[13189370342,091][WARNING]: No translation for key code. Code point: 101
+[13189370342,091][WARNING]: No translation for key code. Code point: 116
+[13189370342,091][WARNING]: No translation for key code. Code point: 101
+[13189370342,091][WARNING]: No translation for key code. Code point: 120
+[13189370342,091][WARNING]: No translation for key code. Code point: 116
+[13189370342,096][FINE]: Command finished (/session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/value) with response {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13189370342,097][FINE]: <<<<< ProcessHttpRequest - processing finished: /session/814f9c900cdb332e329086ca7230a336/element/2b46f928a5e4f3ddd8704911ddffbcbb/value
+[13189370342,099][FINE]: >>>>> ProcessHttpRequest - got new request: POST  /session/814f9c900cdb332e329086ca7230a336/elements
+[13189370342,099][FINE]: Command received (/session/814f9c900cdb332e329086ca7230a336/elements) with params {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "using": "class name",
+   "value": "QPushButton"
+}
+
+[13189370342,100][INFO]: >>>>> QmlView enumerate
+[13189370342,100][INFO]: >>>>> WidgetView enumerate
+[13189370342,100][FINE]: EnumerateViews found 1 views.
+[13189370342,100][FINE]: Widget executor for view(a60262edf8d30747a07d412da6a1296b)
+[13189370342,101][FINE]: FindNativeElements, loc:className query:QPushButton
+[13189370342,101][INFO]: no root element specified, search from root.
+[13189370342,101][FINE]: element found: 79f35622ba5a7b22f0a4105a1a2b88bd
+[13189370342,101][FINE]: Command finished (/session/814f9c900cdb332e329086ca7230a336/elements) with response {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": "79f35622ba5a7b22f0a4105a1a2b88bd"
+   } ]
+}
+
+[13189370342,101][FINE]: <<<<< ProcessHttpRequest - processing finished: /session/814f9c900cdb332e329086ca7230a336/elements
+[13189370342,104][FINE]: >>>>> ProcessHttpRequest - got new request: GET  /session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/displayed
+[13189370342,104][FINE]: Command received (/session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/displayed)
+[13189370342,104][INFO]: >>>>> QmlView enumerate
+[13189370342,104][INFO]: >>>>> WidgetView enumerate
+[13189370342,104][FINE]: EnumerateViews found 1 views.
+[13189370342,104][FINE]: Widget executor for view(a60262edf8d30747a07d412da6a1296b)
+[13189370342,105][FINE]: Command finished (/session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/displayed) with response {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "status": 0,
+   "value": true
+}
+
+[13189370342,105][FINE]: <<<<< ProcessHttpRequest - processing finished: /session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/displayed
+[13189370342,108][FINE]: >>>>> ProcessHttpRequest - got new request: GET  /session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/text
+[13189370342,108][FINE]: Command received (/session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/text)
+[13189370342,108][INFO]: >>>>> QmlView enumerate
+[13189370342,108][INFO]: >>>>> WidgetView enumerate
+[13189370342,108][FINE]: EnumerateViews found 1 views.
+[13189370342,109][FINE]: Widget executor for view(a60262edf8d30747a07d412da6a1296b)
+[13189370342,110][FINE]: Command finished (/session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/text) with response {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "status": 0,
+   "value": "Send"
+}
+
+[13189370342,110][FINE]: <<<<< ProcessHttpRequest - processing finished: /session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/text
+[13189370342,113][FINE]: >>>>> ProcessHttpRequest - got new request: POST  /session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/click
+[13189370342,113][FINE]: Command received (/session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/click) with params {
+   "id": "79f35622ba5a7b22f0a4105a1a2b88bd",
+   "sessionId": "814f9c900cdb332e329086ca7230a336"
+}
+
+[13189370342,113][INFO]: >>>>> QmlView enumerate
+[13189370342,113][INFO]: >>>>> WidgetView enumerate
+[13189370342,113][FINE]: EnumerateViews found 1 views.
+[13189370342,114][FINE]: Widget executor for view(a60262edf8d30747a07d412da6a1296b)
+[13189370342,114][FINE]: Click on 
+[13189370342,114][FINE]: pushButton
+[13189370342,115][FINE]: Command finished (/session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/click) with response {
+   "sessionId": "814f9c900cdb332e329086ca7230a336",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13189370342,115][FINE]: <<<<< ProcessHttpRequest - processing finished: /session/814f9c900cdb332e329086ca7230a336/element/79f35622ba5a7b22f0a4105a1a2b88bd/click

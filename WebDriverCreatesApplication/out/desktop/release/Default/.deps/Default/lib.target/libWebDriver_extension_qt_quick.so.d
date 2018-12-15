@@ -1,0 +1,1 @@
+cmd_Default/lib.target/libWebDriver_extension_qt_quick.so := ln -f "Default/obj.target/libWebDriver_extension_qt_quick.so" "Default/lib.target/libWebDriver_extension_qt_quick.so" 2>/dev/null || (rm -rf "Default/lib.target/libWebDriver_extension_qt_quick.so" && cp -af "Default/obj.target/libWebDriver_extension_qt_quick.so" "Default/lib.target/libWebDriver_extension_qt_quick.so")

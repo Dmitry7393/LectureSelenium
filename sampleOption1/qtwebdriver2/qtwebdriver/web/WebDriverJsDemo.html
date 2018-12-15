@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      .unitLabel {
+        font-size: small;
+      }
+
+      .commandBlock {
+        margin-top: 20px;
+      }
+
+      #findElementPanel td {
+        vertical-align: top;
+      }
+
+      .ui-keyboard-keyset {
+        width: 600px;
+      }
+
+      .ui-keyboard-space {
+        margin-top: -100px;
+      }
+      textarea { width: 100%; border: 1px solid #333; padding: 4px; }
+    </style>
+
+    <!-- jQuery & jQuery UI + theme (required) -->
+    <link href="jquery-ui.css" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+
+    <!-- keyboard widget css & script (required) -->
+    <link href="keyboard.css" rel="stylesheet">
+    <script src="jquery.keyboard.js"></script>
+
+    <script src="webdriver.js"></script>
+    <script src="base64-arraybuffer.js"></script>
+    <script src="FileSaver.js"></script>
+    <script src="hammer.min.js"></script>
+    <script src="webdriver-app.js"></script>
+  </head>
+  <body>
+    <table border="0">
+      <tr>
+        <td>WebDriver url and port</td>
+        <td>
+          <input name="webDriverUrlPort" type="text" onchange="wd.onWebDriverUrlPortChange()" onkeyup="wd.onWebDriverUrlPortChange()"/>
+        </td>
+      </tr>
+      <tr>
+        <td>Web page</td>
+        <td>
+          <input name="webPage" type="text" onchange="wd.onWebPageChange()" onkeyup="wd.onWebPageChange()"/>
+          <input id="getButton" type="button" value="GET" onclick="wd.onGet()"/>
+          <input id="sourceButton" type="button" value="Visualize" disabled="true" onclick="wd.onSource()"/>
+          <input id="screenshotButton" type="button" value="Screenshot" disabled="true" onclick="wd.onScreenshot()"/>
+          <select id="logsSelect" onmouseup="wd.onLogs(this.options[this.selectedIndex].value)">
+            <option>Logs</option>
+            <option value="browser">browser</option>
+            <option value="driver">driver</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+
+    <div id="error" class="commandBlock ui-widget-content ui-corner-all" style="display: none; color: red;">
+    </div>
+
+    <div id="findElementPanel" class="commandBlock ui-widget-content ui-corner-all">
+      <table>
+        <tr>
+          <td>
+            Find element by
+          </td>
+          <td>
+            <select name="findElementCriteria">
+              <option value="id">id</option>
+              <option value="name">name</option>
+              <option value="tagName">tag name</option>
+              <option value="xpath">xpath</option>
+            </select>
+          </td>
+          <td>
+            <input name="findElementKey" type="text"/>
+          </td>
+          <td>
+            <input type="submit" value="Find element" onclick="wd.onFindElement()"/>
+          </td>
+          <td>
+            <span id="foundElement" style="visibility: hidden;"></span>
+          </td>
+          <td>
+            <span id="elementActions" style="visibility: hidden;">
+              <input type="submit" value="Click" onclick="wd.onElementClick()"/>
+              <input type="submit" value="Submit" onclick="wd.onElementSubmit()"/>
+              <input type="submit" value="Clear" onclick="wd.onElementClear()"/>
+
+              <input type="submit" value="Tag name" onclick="wd.onElementTagName()"/>
+              <input type="submit" value="Text" onclick="wd.onElementText()"/>
+
+              <input type="submit" value="Location" onclick="wd.onElementLocation()"/>
+              <input type="submit" value="Size" onclick="wd.onElementSize()"/>
+
+              <input type="submit" value="Selected?" onclick="wd.onElementIsSelected()"/>
+              <input type="submit" value="Enabled?" onclick="wd.onElementIsEnabled()"/>
+              <input type="submit" value="Displayed?" onclick="wd.onElementIsDisplayed()"/>
+            </span>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="commandBlock">
+      <input id="keyboard" type="text" style="display: none;"/>
+    </div>
+
+    <div class="commandBlock ui-widget-content ui-corner-all">
+      <input id="listWindowButton" type="submit" value="List window handles" onclick="wd.onListWindowHandles()"/>
+      <select id="windowList" style="visibility: hidden;">
+      </select>
+      <input id="chooseWindow" type="submit" value="Choose window" onclick="wd.onChooseWindow()" style="visibility: hidden;"/>
+    </div>
+
+    <div class="commandBlock ui-widget-content ui-corner-all">
+      <input type="submit" value="Set window size" onclick="wd.onSetWindowSize()"/>
+      <input name="windowSizeWidth" type="text" style="width: 50px"/>
+      <span class="unitLabel">px</span> width and
+      <input name="windowSizeHeight" type="text" style="width: 50px"/>
+      <span class="unitLabel">px</span> height.
+    </div>
+
+    <div class="commandBlock ui-widget-content ui-corner-all">
+      <input name="disableMouseEvents" type="checkbox" style="width: 50px">Disable click events</input>
+    </div>
+
+    <div style="margin-top: 20px">
+      <input type="submit" value="Quit" onclick="wd.onQuit()"/>
+      <span id="sessionIdLabel" style="color: gray; float:right;"></span>
+    </div>
+    <div style="margin-top: 20px">
+     <input id="srcButton" type="button" value="Source" onclick="wd.onPageSource()"/><br>
+     <textarea name="textarea" rows="15"></textarea>   
+    </div>	
+  </body> 
+</html>

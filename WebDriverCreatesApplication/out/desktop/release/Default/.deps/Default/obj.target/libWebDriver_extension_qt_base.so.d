@@ -1,0 +1,1 @@
+cmd_Default/obj.target/libWebDriver_extension_qt_base.so := g++ -shared   -Wl,-soname=libWebDriver_extension_qt_base.so -o Default/obj.target/libWebDriver_extension_qt_base.so -Wl,--whole-archive ./Default/obj.target/libWebDriver_extension_qt_base.a ./Default/obj.target/src/third_party/mimetypes-qt4/libmimetypes-qt4.a -Wl,--no-whole-archive 

@@ -1,0 +1,1 @@
+cmd_Default/obj.target/libWebDriver_extension_qt_quick.so := g++ -shared   -Wl,-soname=libWebDriver_extension_qt_quick.so -o Default/obj.target/libWebDriver_extension_qt_quick.so -Wl,--whole-archive ./Default/obj.target/libWebDriver_extension_qt_quick.a -Wl,--no-whole-archive 

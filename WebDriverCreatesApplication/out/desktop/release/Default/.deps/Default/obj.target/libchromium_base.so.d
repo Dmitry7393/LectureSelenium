@@ -1,0 +1,1 @@
+cmd_Default/obj.target/libchromium_base.so := g++ -shared   -Wl,-soname=libchromium_base.so -o Default/obj.target/libchromium_base.so -Wl,--whole-archive ./Default/obj.target/libchromium_base.a -Wl,--no-whole-archive 

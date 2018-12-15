@@ -1,0 +1,1 @@
+cmd_Default/libmimetypes-qt4.a := ln -f "Default/obj.target/src/third_party/mimetypes-qt4/libmimetypes-qt4.a" "Default/libmimetypes-qt4.a" 2>/dev/null || (rm -rf "Default/libmimetypes-qt4.a" && cp -af "Default/obj.target/src/third_party/mimetypes-qt4/libmimetypes-qt4.a" "Default/libmimetypes-qt4.a")
