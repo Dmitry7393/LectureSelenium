@@ -408,8 +408,8 @@ ifeq ($(strip $(foreach prefix,$(NO_LOAD),\
 endif
 
 quiet_cmd_regen_makefile = ACTION Regenerating $@
-cmd_regen_makefile = cd $(srcdir); /usr/bin/gyp -fmake --ignore-environment "--toplevel-dir=." "--depth=." "-Goutput_dir=." "--generator-output=/home/bukshadmitry/my_projects/LectureSelenium/qtwebdriver/out/desktop/release" "-Dplatform=desktop" "-Dmode=release" "-DROOT_PATH=/home/bukshadmitry/my_projects/LectureSelenium/qtwebdriver" "-DQT_DIR=" wd.gyp
-Makefile: $(srcdir)/wd_test.gyp $(srcdir)/src/third_party/mimetypes-qt4/mimetypes-qt4.gyp $(srcdir)/wd_ext_qt.gyp $(srcdir)/wd_core.gyp $(srcdir)/wd_common.gypi $(srcdir)/base.gyp $(srcdir)/wd_qt_tools.gypi $(srcdir)/wd_build_options.gypi $(srcdir)/wd.gyp $(srcdir)/wd.gypi
+cmd_regen_makefile = cd $(srcdir); /usr/bin/gyp -fmake --ignore-environment "--toplevel-dir=." "--depth=." "-Goutput_dir=." "--generator-output=/home/bukshadmitry/my_projects/LectureSelenium/WebDriverCreatesApplication/out/desktop/release" "-Dplatform=desktop" "-Dmode=release" "-DROOT_PATH=/home/bukshadmitry/my_projects/LectureSelenium/WebDriverCreatesApplication" "-DQT_DIR=" wd.gyp
+Makefile: $(srcdir)/wd_test.gyp $(srcdir)/wd_ext_qt.gyp $(srcdir)/src/third_party/mimetypes-qt4/mimetypes-qt4.gyp $(srcdir)/wd_core.gyp $(srcdir)/wd_common.gypi $(srcdir)/base.gyp $(srcdir)/wd_qt_tools.gypi $(srcdir)/wd_build_options.gypi $(srcdir)/wd.gyp $(srcdir)/wd.gypi
 	$(call do_cmd,regen_makefile)
 
 # "all" is a concatenation of the "all" targets from all the included

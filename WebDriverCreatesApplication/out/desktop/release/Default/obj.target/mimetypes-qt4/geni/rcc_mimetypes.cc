@@ -9,7 +9,7 @@
 #include <QtCore/qglobal.h>
 
 static const unsigned char qt_resource_data[] = {
-  // /home/bukshadmitry/my_projects/LectureSelenium/qtwebdriver/src/third_party/mimetypes-qt4/mimetypes/mime/packages/freedesktop.org.xml
+  // /home/bukshadmitry/my_projects/LectureSelenium/WebDriverCreatesApplication/src/third_party/mimetypes-qt4/mimetypes/mime/packages/freedesktop.org.xml
   0x0,0x3,0xd6,0x80,
   0x0,
   0x1a,0xbc,0xa4,0x78,0x9c,0xec,0xbd,0xeb,0x77,0x54,0xc7,0x95,0x37,0xfc,0x7d,0xfe,

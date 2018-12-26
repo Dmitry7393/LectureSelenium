@@ -95,7 +95,9 @@ Default/obj.target/test_widgets/src/Test/mainwindow.o: \
  /usr/include/qt4/QtGui/qabstractslider.h /usr/include/qt4/QtGui/qstyle.h \
  /usr/include/qt4/QtGui/qtabbar.h /usr/include/qt4/QtGui/qrubberband.h \
  /usr/include/qt4/QtGui/QStatusBar /usr/include/qt4/QtGui/qstatusbar.h \
- /usr/include/qt4/QtGui/QToolBar /usr/include/qt4/QtGui/qtoolbar.h
+ /usr/include/qt4/QtGui/QToolBar /usr/include/qt4/QtGui/qtoolbar.h \
+ /usr/include/qt4/QtGui/QMessageBox /usr/include/qt4/QtGui/qmessagebox.h \
+ /usr/include/qt4/QtGui/qdialog.h
 ../../../src/Test/mainwindow.cpp:
 ../../../src/Test/mainwindow.h:
 ../../../src/Test/CommonQtTestHeaders.h:
@@ -254,3 +256,6 @@ Default/obj.target/test_widgets/geni/ui_mainwindow.h:
 /usr/include/qt4/QtGui/qstatusbar.h:
 /usr/include/qt4/QtGui/QToolBar:
 /usr/include/qt4/QtGui/qtoolbar.h:
+/usr/include/qt4/QtGui/QMessageBox:
+/usr/include/qt4/QtGui/qmessagebox.h:
+/usr/include/qt4/QtGui/qdialog.h:
