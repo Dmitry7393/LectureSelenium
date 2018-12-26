@@ -6,30 +6,30 @@ driver = webdriver.Remote(
    desired_capabilities=webdriver.DesiredCapabilities.FIREFOX,
    command_executor='http://127.0.0.1:9517'
 )
-driver.get("qtwidget://MainWindow");
+driver.get("qtwidget://MainWindow")
 
-def send_keys_to_element_with_type(widget_type, data):
-    elements = driver.find_elements_by_class_name(widget_type)
-    for el in elements:
-        if el and el.is_displayed():
-            if len(el.text) == 0:
-                el.send_keys(data)
-                break
-
-def find_widget_with_text(widget_class, widget_text):
-    widgets = driver.find_elements_by_class_name(widget_class)
-    if widgets:
-        for widget in widgets:
-            if widget and widget.is_displayed():
-                if widget_text == widget.text:
-                    return widget
-    return
-
-time.sleep(3)
+time.sleep(1)
 print("Start test")
-send_keys_to_element_with_type('QLineEdit', 'some text')
+line_edit = driver.find_element_by_id('m_LineEditForNumber')
+line_edit.send_keys('64')
 
-btn = find_widget_with_text('QPushButton', "Send")
-btn.click()
+btn_calculate = driver.find_element_by_id('m_BtnCalculate')
+if not btn_calculate:
+    print('element was not found')
 
+btn_calculate.click()
+
+widgets = driver.find_elements_by_class_name('QLabel')
+if widgets:
+    for widget in widgets:
+        if widget and widget.is_displayed():
+            print(widget.text)
+
+
+
+res_sqrt = driver.find_element_by_id('m_ResultSqrt')
+print('res = ', res_sqrt.text)
+
+if res_sqrt.text == '8':
+    print('Test is passed')
 
